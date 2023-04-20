@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+
+html{
+    font-family: 'Candy Beans';
+}
+
+header{
+    background-color: rgb(255, 178, 54);
+    color: white;
+    padding: 3rem 2rem;
+
+}
+
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenido{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    margin: irem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+section article h2, section article p{
+    margin: irem;
+}
+
+section article:hover{
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.3)
+}
+
+footer{
+    background-color: cadetblue;
+    padding: 3rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
+footer p{
+    margin: margin 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: crimson;
+}
